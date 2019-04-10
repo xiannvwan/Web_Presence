@@ -1,0 +1,11 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color:gainsboro;
+    padding: 8px;
+}
+table, th, td {            
+    border: 1px solid rgb(231, 163, 163);
+}

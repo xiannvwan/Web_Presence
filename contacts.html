@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/general.css" media="screen">
+    <link rel="stylesheet" href="./css/print.css" media="print">
+    <title>Yuzhu Wan - Contacts</title>
+    <style>
+        @media only screen and (max-width: 1024px) {
+            nav { float: none; width: auto; }
+            nav li { display: inline-block; padding: 0.5em; }
+            nav ul { text-align: center; }
+            nav a { border-style: none; }
+            h1, h2 { font-size: 120%; }
+            p { font-size: 90%; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./accomplishment.html">Accomplishment</a></li>
+                <li><a href="./goals.html">Goals</a></li>
+                <li><a href="./hobby.html">Hobby</a></li>
+                <li><a href="./hometown.html">Hometown</a></li>
+                <li id="contacts"><a href="#" class="active">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="contact-action">
+            <h1>Contact</h1>
+            <h2>Email to me at</h2>
+            <p><a href="mailto:yuzhuwan@gmail.com" class="mono-style">YuzhuWan@gmail.com</a></p>
+            <h3>or</h3>
+            <p>leave your name and email address, I'll contact with you</p>
+            <form class="form-style">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" required><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required><br><br>
+                <input type="submit" value="Submit"> <input type="reset" value="reset">
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2019 Yuzhu Wan. All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    padding: 8px;
+}
+
+table, th, td {            
+    border: 1px solid black;
+}
+
+body {
+    color: black;
+    background-image: none;
+}
+
+.title {
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-action {
+    border: 2px solid #EDC7B7;
+    margin: 200px auto;
+    padding: 30px 40px;
+    width: 400px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+}
+
+
+
+#bg-me {
+    width: 100%;
+    background: none;
+}
+
+#self-intro-floating-title {
+    font-size: 12px;
+}
+
+#self-intro-floating-content {
+    width: 500px;
+    height: auto;
+}
